@@ -1,0 +1,84 @@
+.number-input {
+  /* margin: 1em auto; */
+  position: relative;
+  width: 116px;
+  /* background: #CACACA; */
+  display: table-cell;
+}
+.number-input input {
+  background-color: rgba(255, 255, 255, 0.65);
+  border-right: 0;
+  font-size: 19px;
+  overflow: hidden;
+  height: 44px;
+  padding: 0.15em .15em;
+  position: relative;
+  transition: .5s ease all;
+  z-index: 1;
+  width: 48%;
+  display: block;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 auto;
+  /* Rectangle 26: */
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB !important;
+  border-radius: 3px;
+}
+.number-input input:focus, .number-input input:active {
+  background-color: white;
+  /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.75); */
+  outline: none;
+  transition: .5s ease all;
+}
+
+.buttonss {
+  /* overflow: hidden; */
+  top: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  right: 0;
+  display: block;
+  bottom: 0;
+  z-index: 1;
+  /* background: rgba(255, 255, 0, 0.42); */
+  pointer-events: none;
+}
+
+.increment, .decrement {
+  /* background: #e1e1e1; */
+  /* font-weight: bold; */
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+  /* float: left; */
+  height: 100%;
+  padding: .15em 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 25%;
+  z-index: 2;
+  position: absolute;
+  color: #828282;
+  top: -3px;
+  pointer-events: visible;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+.increment:hover, .decrement:hover {
+  color: #383838;
+}
+.increment::selected, .decrement::selected {
+  background: #e1e1e1;
+}
+
+.increment {
+  right: 0;
+}
+
+.decrement {
+  left: 0;
+}

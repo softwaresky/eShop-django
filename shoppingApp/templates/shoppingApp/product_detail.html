@@ -1,0 +1,24 @@
+
+{% extends  'shoppingApp/base.html' %}
+
+{% block content %}
+    <h3>{{product.title}}</h3>
+    <h5>{{product.brand}}</h5>
+
+    <h5>
+    {% for index, parent_category_ in category_zip %}
+        {% if index == 0 %}
+            <a href="/category/{{parent_category_.id}}" >{{parent_category_.name}}</a>
+        {% else %}
+            -> <a href="/category/{{parent_category_.id}}" >{{parent_category_.name}}</a>
+        {% endif %}
+    {% endfor %}
+    </h5>
+
+    <img src="{% if product.image %} {{ product.image.url}} {% else %} '#' {% endif %} " alt="{{product.title}}">
+    <div>{{product.description_title}}</div>
+    <div>{{product.description}}</div>
+    <div>{{product.price}} денари.</div>
+    {% include 'shoppingApp/product_add.html' %}
+
+{% endblock %}

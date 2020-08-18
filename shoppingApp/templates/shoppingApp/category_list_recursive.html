@@ -1,0 +1,28 @@
+
+{% block content %}
+
+<li>
+
+    {% if category_.children.all %}
+        {% if category_ in selected_category %}
+            <a href="/category/{{category_.id}}" data-target="#sub_category_{{ category_.id }}" data-toggle="collapse" aria-expanded="true" aria-selected="false" class="dropdown-toggle" aria-controls="sub_category_{{ category_.id }}">{{ category_.name }}</a>
+        {% else %}
+            <a href="/category/{{category_.id}}" data-target="#sub_category_{{ category_.id }}" data-toggle="collapse" aria-expanded="false" aria-selected="false" class="dropdown-toggle" aria-controls="sub_category_{{ category_.id }}">{{ category_.name }}</a>
+
+        {% endif %}
+        <ul class="collapse {% if category_ in selected_category %} show {% else %} {% endif %} list-unstyled" id="sub_category_{{ category_.id }}">
+
+            {% for child_ in category_.children.all %}
+                {% with category_=child_ template_name='shoppingApp/category_list_recursive.html' %}
+                    {% include template_name %}
+                {% endwith %}
+            {% endfor %}
+
+        </ul>
+    {% else %}
+    <a href="/category/{{category_.id}}" aria-expanded="false" aria-selected="true" >{{ category_.name }}</a>
+    {% endif %}
+
+</li>
+{% endblock %}
+

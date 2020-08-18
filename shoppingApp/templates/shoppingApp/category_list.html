@@ -1,0 +1,9 @@
+
+{% block category_content %}
+	<ul class="list-unstyled components ">
+<!--		<p>{{selected_category.parent}}</p>-->
+		{% for category_ in lst_category %}
+			{% include 'shoppingApp/category_list_recursive.html' %}
+		{% endfor %}
+	</ul>
+{% endblock %}

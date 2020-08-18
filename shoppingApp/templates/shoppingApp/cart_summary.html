@@ -1,0 +1,71 @@
+
+<table class="table w-100">
+  <thead>
+    <tr>
+        <th scope="col">Product</th>
+        <th scope="col">Price</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Amount</th>
+        <th scope="col">Remove</th>
+    </tr>
+  </thead>
+  <tbody >
+  {% for dict_product_ in lst_product_quantity %}
+        <tr>
+            <td>{{dict_product_.title}}</td>
+            <td>{{dict_product_.price}}</td>
+            <td style="width:150px;">
+            {% if dict_product_.product_type == 'парче' %}
+                <input id="number_{{product_.id}}" class="spinner_input" data-product="{{dict_product_.id}}" type="number" name="quantity_number" value="{{dict_product_.quantity}}" min="0" step="1" />
+            {% else %}
+                <input id="number_{{product_.id}}" class="spinner_input" data-product="{{dict_product_.id}}" type="number" name="quantity_number" value="{{dict_product_.quantity}}" data-decimals="2" min="0.0" step="0.2" />
+            {% endif %}
+            <td>{{ dict_product_.amount|floatformat:2 }}</td>
+            <td>
+                <button class="btn btn-danger btn-sm pull-right remove-item btn_remove_product" data-product="{{dict_product_.id}}">
+                    <span class="fas fa-minus"></span>
+                </button>
+            </td>
+        </tr>
+  {% endfor %}
+    <tr class="table-danger">
+        <th colspan="4" scope="row">Grand Total</th>
+        <td id="cell_totals">{{cart_totals|floatformat:2 }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<script>
+    // $("input[type='number']").inputSpinner()
+    $(".spinner_input").inputSpinner()
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+
+        $(".spinner_input").on("change", function (event) {
+            var quantity_value = $(this).val();
+            var product_id = $(this).attr("data-product");
+            update_item(product_id, quantity_value);
+        })
+
+        function update_item(product_id, quantity_number) {
+            $('#cartModal .modal-body').html('').load(
+                "{% url 'cart-update-item' %}?product_id=" + product_id + "&quantity_number=" + quantity_number
+            );
+        }
+
+        $(".btn_remove_product").on("click", function (event) {
+            var product_id = $(this).attr("data-product");
+            remove_item(product_id);
+        })
+
+        function remove_item(product_id) {
+            $('#cartModal .modal-body').html('').load(
+                "{% url 'cart-remove-item' %}?product_id=" + product_id
+            );
+        }
+
+
+    });
+</script>

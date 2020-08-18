@@ -1,0 +1,1985 @@
+.left_side_block {
+	width: 14%;
+	background: rgba(109, 109, 109, 0.26);
+	height: auto;
+	min-height: 10px;
+	float: left;
+	/* margin-right: 1%; */
+	position: relative;
+	/* display: table-cell; */
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+	/* Rectangle 181 Copy 2: */
+	background: #FFFFFF;
+	box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.08), 0px 2px 18px 0px rgba(0,0,0,0.08);
+	margin-top: 9px;
+	/* min-width: 270px; */
+	vertical-align: top;
+	width: 18.666667%;
+	/* padding-bottom: 20px; */
+	/* max-width: 330px; */
+	}
+.right_side_wide_block {
+	width: 100%;
+	float: left;
+	/* display: table-cell; */
+	position: relative;
+	/* background: blue; */
+	width: 81.333333%;
+	}
+.kategorii_pocetna {
+    padding: 0 3%;
+    width: 100%;
+    /* margin-bottom: 10px; */
+}
+.grid_category1 {display: block;background: white;padding: 5px;border-radius: 4px;/* Rectangle 1 Copy 11: */ box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.23);text-decoration: none;-webkit-transition: all 0.2s ease-in-out;     -moz-transition: all 0.2s ease-in-out;     -o-transition: all 0.2s ease-in-out;     -ms-transition: all 0.2s ease-in-out;     transition: all 0.2s ease-in-out;text-align: center;position: relative;}
+.grid_category1 img {width: 100%;border-radius: 3px;}
+.desc_grid1 {
+    /* background: #E6E6E6; */
+    text-align: center;
+    /* Овошје и зеленчук: */
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #464646;
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    font-weight: normal;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.grid_category1:hover {/* Rectangle 1 Copy 10: */ background: #FFFFFF;box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.23), 0px 27px 31px 0px rgba(0,0,0,0.29) !important; border-radius: 3px;z-index: 8;/* margin-top: -8px; */transform: translateY(-8px);}
+.search_cont {
+    /* float: left; */
+    width: 51%;
+    padding-left: 20px;
+    padding-right: 10px;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+.slogan {
+    width: 161px;
+    position: absolute;
+    bottom: -44px;
+    z-index: -1;
+    right: -50px;
+    transform-origin: top left;
+    transition: all 0.2s ease-in-out;
+    display: none;
+}
+.logo_tinex {
+    max-width: 175px;
+    z-index: 9;
+    margin-top: 4px;
+}
+.logo_header:hover > .slogan {
+    transform: rotate(5deg);
+}
+.cont_desc_tiles {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    overflow: hidden;
+    padding: 10px;
+    padding-top: 15px;
+    text-align: center;
+}
+.search_kopce {
+    position: absolute;
+    right: 12px;
+    background: url(../img/search.png) center no-repeat rgba(0, 0, 0, 0);
+    top: -5px;
+    bottom: 0;
+    margin: auto;
+    z-index: 9;
+    width: 40px;
+    height: 42px;
+    border: none;
+    padding: 0 !important;
+    cursor: pointer;
+    background-size: 16px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    text-indent: -999999999px;
+    color: transparent;
+    -webkit-appearance: none;
+}
+.buttons_cont_headr {
+    /* float: left; */
+    width: 1%;
+	/*min-width: 488px;*/
+    min-width: 488px;
+    padding-left: 10px;
+    position: relative;
+    /* background: #E0E0E0; */
+    display: table-cell;
+    /* padding: 0 10px; */
+    vertical-align: middle;
+    height: 100%;
+}
+.buttons_cont_headr a {
+    display: table;
+    /* background: rgba(255, 0, 0, 0.12); */
+    float: left;
+    /* width: 31%; */
+    margin-left: 2%;
+    padding-left: 3.5%;
+    border-left: 1px solid rgba(0, 0, 0, 0.19);
+    position: relative;
+}
+.buttons_cont_headr a > .naslov_kopc {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    /* НАГРАДИ И ПОСЕБНИ АК: */
+    font-size: 10px;
+    color: #5F5F5F;
+    line-height: 15px;
+    font-weight: normal;
+    /* width: 70%; */
+    padding-right: 10px;
+}
+.slika_kopc_menu {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    width: 55px;
+    height: 55px;
+    background-color: rgba(255, 0, 0, 0.46);
+}
+.akcii_btn {
+    border: none !important;
+    margin-left: 0 !important;
+}
+.nagradi_btn {
+    margin-left: 4% !important;
+}
+.koshnichka_btn {}
+
+.akcii_btn .slika_kopc_menu {
+    background: url(../img/akcii.png) center no-repeat;
+    background-size: auto 95%;
+}
+.nagradi_btn .slika_kopc_menu {
+    background: url(../img/nagradi.png) center no-repeat;
+    background-size: auto 95%;
+}
+.cpp_btn .slika_kopc_menu {
+    background: url(../img/cpp.png) center no-repeat;
+    background-size: auto 95%;
+}
+.koshnichka_btn .slika_kopc_menu {
+    background: url(../img/kosnichka.png) center no-repeat;
+    background-size: auto 95%;
+}
+.kosh_broj {
+    position: absolute;
+    background: #F02316;
+    display: block;
+    top: 6px;
+    right: 2px;
+    padding: 5px 6px;
+    border-radius: 50px;
+    color: white;
+    background-image: linear-gradient(-180deg, #F8534E 0%, #F01616 100%);
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 10px;
+}
+.real_menu {
+    background: #EEEEEE;
+    position: absolute;
+    width: 100%;
+    display: table;
+    height: 130px;
+}
+.real_menu_list {
+    display: table-cell;
+    padding-left: 10px;
+    vertical-align: top;
+}
+.real_menu_list li {
+    float: left;
+    /* border-right: 1px solid rgba(0, 0, 0, 0.25); */
+    margin: 4px 0;
+}
+.real_menu_list li:last-child > a {
+    border: none;
+}
+.real_menu_list li > a {
+    color: #7D7D7D;
+    padding: 2px 10px;
+    font-weight: normal;
+    font-size: 11px;
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+}
+.user_links {
+    display: table-cell;
+}
+.no_user {
+    background: #00A74D;
+    display: inline-block;
+    float: right;
+    border-top-left-radius: 7px;
+    padding: 6px 0px;
+    margin-top: 2px;
+}
+.no_user a {
+    white-space: nowrap;
+    float: left;
+    color: white;
+    font-weight: normal;
+    padding: 4px 12px 0 12px;
+    font-size: 13px;
+    border-right: 1px solid rgba(255, 255, 255, 0.53);
+}
+.no_user img {
+    width: 16px;
+    float: left;
+    margin-top: -1px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.header_scroll {margin-top: 0;box-shadow: 0 0px 0 1px rgba(0, 0, 0, 0.14),0 2px 60px 5px rgba(0, 0, 0, 0.39);padding: 5px 0;border-top: 3px solid #00A74D;position: fixed !important;padding-top: 9px;padding-bottom: 6px;/* overflow: auto; */}
+.header_scroll .slogan {
+    opacity: 0;
+    right: 0;
+}
+.real_menu_list li > a:hover {
+	text-decoration: underline;
+}
+.banner_tinex {
+    border: 1px solid rgba(123, 123, 123, 0.2);
+    padding: 15px;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 1%;
+    margin-right: 1%;
+    width: 98%;
+}
+.banner_tinex img {
+    width: 100%;
+}
+.cart_tinex {
+    display: block;
+    position: fixed;
+    width: 50%;
+    overflow: hidden;
+    height: 100%;
+    background: white;
+    z-index: 1001;
+    right: -450px;
+    top: 0;
+    bottom: 0;
+    box-shadow: none;
+    /* opacity: 0; */
+    width: 450px;
+    /*transition: all 0.5s cubic-bezier(0.39, 0.58, 0.57, 1);*/
+}
+.cart_open {
+    right: 0 !important;
+    box-shadow: -23px 0 260px 20px rgba(0, 0, 0, 0.74);
+    opacity: 1;
+}
+.close_cart {
+    display: block;
+    width: 72px;
+    background: url(../img/close_white.png) center no-repeat;
+    position: relative;
+    display: table-cell;
+    background-size: 37%;
+    cursor: pointer;
+}
+.header_koshnichka {
+    height: 83px;
+    background: #F43623;
+    display: table;
+    width: 450px;
+    position: fixed;
+    z-index: 3;
+    background-image: linear-gradient(-180deg, rgb(247, 70, 60) 0%, #F11414 100%);
+    box-shadow: 10px 10px 15px 0px white;
+}
+.scroll_items_koshnichka {
+    /* background: blue; */
+    float: left;
+    display: inline-table;
+    width: 450px;
+    height: 100%;
+    padding-bottom: 233px;
+    overflow-y: scroll;
+    position: fixed;
+    top: 83px;
+}
+.footer_naplati {
+    position: absolute;
+    width: 450px;
+    height: 149px;
+    background: white;
+    bottom: 0;
+    float: left;
+    z-index: 3;
+    box-shadow: 0px -6px 15px 10px rgb(255, 255, 255);
+    display: table;
+    right: 0;
+}
+.item_kochnichka {
+    padding: 1em 1.2em;
+    /* padding-bottom: 27px; */
+    float: left;
+    width: 100%;
+    display: table-row;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.19);
+}
+
+.number-input {
+  /* margin: 1em auto; */
+  position: relative;
+  width: 116px;
+  /* background: #CACACA; */
+  display: table-cell;
+}
+.number-input input {
+  background-color: rgba(255, 255, 255, 0.65);
+  border-right: 0;
+  font-size: 19px;
+  overflow: hidden;
+  height: 44px;
+  padding: 0.15em .15em;
+  position: relative;
+  transition: .5s ease all;
+  z-index: 0;
+  width: 48%;
+  display: block;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.54);
+  margin: 0 auto;
+  /* Rectangle 26: */
+  background: #FFFFFF;
+  border: 1px solid #BBBBBB !important;
+  border-radius: 3px;
+}
+.number-input input:focus, .number-input input:active {
+  background-color: white;
+  /* box-shadow: 0 0 1rem rgba(0, 0, 0, 0.75); */
+  outline: none;
+  transition: .5s ease all;
+}
+
+.buttonss {
+  /* overflow: hidden; */
+  top: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  right: 0;
+  display: block;
+  bottom: 0;
+  z-index: 1;
+  /* background: rgba(255, 255, 0, 0.42); */
+  pointer-events: none;
+}
+
+.increment, .decrement {
+  /* background: #e1e1e1; */
+  /* font-weight: bold; */
+  cursor: pointer;
+  display: block;
+  font-size: 35px;
+  /* float: left; */
+  height: 100%;
+  padding: .15em 0;
+  text-align: center;
+  vertical-align: middle;
+  width: 25%;
+  z-index: 2;
+  position: absolute;
+  color: #828282;
+  top: -3px;
+  pointer-events: visible;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+}
+.increment:hover, .decrement:hover {
+  color: #383838;
+}
+.increment::selected, .decrement::selected {
+  background: #e1e1e1;
+}
+
+.increment {
+  right: 0;
+}
+
+.decrement {
+  left: 0;
+}
+.cart_items_white {
+    background: white;
+    position: absolute;
+    display: block;
+    top: 15px;
+    right: 14px;
+    padding: 5px 7px;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 16px;
+    color: #F43623;
+}
+.cart_white {
+    display: table-cell;
+    width: 100px;
+    background: url(../img/koshnichka_white.png) center no-repeat;
+    background-size: 48px;
+    position: relative;
+}
+.info_txt_cart {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 19px;
+    /* Производи кои се: */
+    font-size: 17px;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-weight: 300;
+}
+.title_item_koshnichka {
+    /* background: red; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 1em;
+    font-size: 18px;
+    color: #7B7B7B;
+    line-height: normal;
+    font-weight: 300;
+}
+.edit_item_koshnichka {
+    padding-top: 12px;
+    display: table;
+    width: 100%;
+    /* background: rgba(255, 0, 0, 0.29); */
+}
+.cena_vkupno_artikl {
+    display: table-cell;
+    /* Rectangle 26: */
+    /* 20mkd: */
+    padding: 0 15px;
+    position: relative;
+}
+.delete_artikl {
+    display: table-cell;
+    background: url(../img/delete.png) no-repeat center;
+    width: 60px;
+    background-size: 23px auto;
+    position: relative;
+}
+.buttons_cont_headr a:hover {}
+.number_price {
+    border: 1px solid #C1C1C1 !important;
+    border-radius: 3px;
+    font-size: 17px;
+    color: #6C6C6C;
+    text-align: center;
+    padding: 12px 0;
+    /* background: white; */
+}
+.info_itm {
+    /* background: red; */
+    position: absolute;
+    bottom: -17px;
+    color: #525252;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 11px;
+    display: none;
+}
+.item_kochnichka:nth-child(even) {
+	background: rgb(248, 248, 248);
+}
+.hide_page_bttn {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 0.5s cubic-bezier(0.39, 0.58, 0.57, 1);
+}
+.visible_bttn_full {
+	pointer-events: visible;
+	opacity: 1;
+}
+.items_cart_tinex {
+    /* float: left; */
+    position: fixed;
+    display: block;
+    height: 100%;
+    overflow-y: scroll;
+    /* background: rgba(255, 0, 0, 0.47); */
+    width: 450px;
+}
+.no_scroll {
+	overflow: hidden;
+}
+.logo_copyright {
+    /* background: rgba(255, 0, 0, 0.17); */
+    width: 13%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.logo_copyright img {
+    width: 100%;
+    max-width: 180px;
+    padding-top: 6px;
+}
+.copyr {
+    text-align: center;
+    font-size: 12px;
+    padding-top: 5px;
+    color: #777777;
+    line-height: 14px;
+}
+.menu_footr {
+    /* background: rgba(0, 0, 255, 0.2); */
+    width: 18%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5%;
+    /* border-right: 1px solid rgba(0, 0, 0, 0.16); */
+    font-size: 12px;
+}
+.menu_footr li {
+    list-style-type: disc;
+}
+.menu_footr a {
+    color: #777777;
+}
+.menu_footr a:hover {
+    text-decoration: underline;
+}
+.phone_tinex {
+    width: 22%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 3%;
+}
+.info_tel {
+    color: #F02316;
+    padding-bottom: 5px;
+    padding-top: 3px;
+    font-size: 13px;
+}
+.tel_red {
+    background: url(../img/tel.png) 12px 10px no-repeat #F02316;
+    display: inline-block;
+    padding: 8px 11px 8px 36px;
+    border-radius: 60px;
+    color: white;
+    background-size: 16px;
+    font-size: 21px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    white-space: nowrap;
+    -webkit-appearance: none;
+}
+.najaven_user {}
+.najaven_user .no_user {
+}
+.vkupno_cont {
+    display: table-cell;
+    /* background: rgba(255, 0, 0, 0.25); */
+    vertical-align: middle;
+    width: 60%;
+    padding: 0px 1em 0 2em;
+}
+.naplati_cont {
+    display: table-cell;
+    /* background: rgba(80, 0, 255, 0.25); */
+    vertical-align: middle;
+    /* padding: 0 5%; */
+    width: 40%;
+}
+.suma_vkupno {
+    /* 1640 MKD: */
+    font-size: 32px;
+    color: #00A74D;
+    line-height: 35px;
+    font-weight: 500;
+}
+.info_vkupno {
+    /* Вкупен износ за напл: */
+    font-size: 13px;
+    color: #898989;
+    line-height: 15px;
+}
+.kopce_naplati {
+    color: white;
+    padding: 15px 60px 15px 20px;
+    border-radius: 7px;
+    background: url(../img/register.png) 87% center no-repeat #F32925;
+    background-size: 18px;
+}
+.footer_naplati:before {
+	content: '';
+	height: 2px;
+	background: rgba(0, 0, 0, 0.2);
+	width: 100%;
+	position: absolute;
+	top: -2px;
+}
+.line_pateka {display: block;/* background: #FFFFFF; */position: relative;padding: 15px 0;margin-top: -10px;margin-bottom: 10px;z-index: 0;}
+.line_pateka > a {z-index: 1;background: url(../img/pateka.png) 100% center no-repeat #FFFFFF;position: relative;color: #898989;font-weight: 300;padding: 0 30px 0 9px;background-size: 18px;font-size: 15px;height: 10px;box-shadow: 10px 0 0 0 white;}
+.line_pateka > a:last-child {padding: 0 10px 0 9px;background: white;pointer-events: none;}
+.line_pateka:before {
+	content: '';
+	height: 1px;
+	background: #CCCCCC;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	z-index: 0;
+}
+.line_pateka > a:hover {
+	text-decoration: underline;
+}
+.block_4 .desc_grid1 {
+    font-size: 16px;
+}
+.switch_label {
+  width: 100%;
+  height: 28px;
+  background-color: #00A24B;
+  box-shadow: inset 0px 2px 6px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 50px;
+  position: absolute;
+  top: 13px;
+  left: 0;
+  right: 0;
+  z-index: 2;
+  user-select: none;
+  transition: 0.3s;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 70px;
+}
+
+.switch:checked ~ .switch_label {
+  background-color: #F4312F;
+  user-select: none;
+  transition: 0.3s;
+}
+
+.switch:checked ~ .switch_label div.s {
+  /* margin-left: 46px; */
+  user-select: none;
+  transition: 0.3s;
+  left: 100%;
+  margin-left: -26px;
+}
+
+.switch_label div.s {
+  width: 24px;
+  height: 24px;
+  background-color: #fafafa;
+  border-radius: 100%;
+  position: relative;
+  top: 2px;
+  left: 2px;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.42);
+  cursor: pointer;
+  user-select: none;
+  transition: 0.3s;
+}
+.switch_cont {
+    /* float: left; */
+    position: relative;
+    /* min-width: 70px; */
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    width: 27%;
+    /* max-width: 70px; */
+}
+.switch {
+  display: none;
+  appearance: none;
+}
+.price_cont {
+    display: table;
+    /* background: red; */
+    width: 100%;
+    padding: 13px 0;
+    font-size: 20px;
+    color: #676767;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.akcija_cena {padding: 0;border: none;}
+.akcija_cont {
+    display: table-cell;
+    background: red;
+    padding: 6px 3px;
+    vertical-align: middle;
+    color: white;
+    /* Rectangle 12: */
+    border: 1px solid rgba(0,0,0,0.15);
+    text-shadow: 0 1px 0 rgba(0, 51, 83, 0.3);
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2), inset 0 1px rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(0,0,0,0.15);
+    background-image: linear-gradient(-180deg, #F8534E 0%, #F01616 100%);
+    border-radius: 5px;
+}
+.stara_cena {
+    display: table-cell;
+    padding: 8px;
+    text-decoration: line-through;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #F33230;
+    border-top: 1px solid #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+}
+.nova_cena {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.vazi_do {
+    font-size: 10px;
+}
+.add_cart_cont {
+    /* background: red; */
+    /* float: left; */
+    width: 100%;
+    display: table;
+    padding: 13px 5px 8px 0px;
+}
+.kolichina_cont {
+    display: table-cell;
+    vertical-align: middle;
+    /* width: 55%; */
+}
+.kolichina_cont .number-input {}
+.kopce_add {
+    display: table-cell;
+    vertical-align: middle;
+    width: 53%;
+    padding-left: 5%;
+}
+.dodaj_koshn {
+    /* Rectangle 25: */
+    /* background-image: linear-gradient(4deg, #DEDEDE 0%, #FFFFFF 98%); */
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    white-space: normal;
+    /* text-align: left; */
+    outline: none;
+    display: block;
+    padding: 5px;
+    /* Додај во: */
+    font-size: 11px;
+    color: #5D5D5D;
+    min-width: 80px;
+    width: 100%;
+    line-height: 16px;
+    background: #F6F6F6;
+}
+.dodaj_koshn:hover {
+    color: white;
+    /* Rectangle 25: */
+    background: #009E49;
+    border: 1px solid #0B6E39;
+    border-radius: 5px;
+}
+.switcher_cont {
+    display: table;
+    width: 100%;
+    /* background: green; */
+    float: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    padding-bottom: 5px;
+}
+.lbl_sw1 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 30%;
+    /* background: rgba(0, 0, 255, 0.33); */
+    text-align: right;
+    /* Сите производи: */
+    font-size: 12px;
+    color: #7E7E7E;
+    padding-right: 15px;
+    line-height: 15px;
+}
+.lbl_sw2 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 31%;
+    /* background: rgba(255, 255, 0, 0.31); */
+    text-align: left;
+    font-size: 12px;
+    color: #7E7E7E;
+    line-height: 15px;
+    padding-left: 10px;
+}
+.proizvod_link {position: relative;width: 100%;}
+.drop_sort_cont {
+	width: 220px;
+	position: absolute;
+	right: 2%;
+	top: 3px;
+	background: rgb(255, 255, 255);
+	display: block;
+	z-index: 9;
+}
+.drop_sort_cont:before {
+	content: '';
+	right: 2px;
+	top: 0px;
+	border-top: 1px solid rgba(255, 255, 255, 0.16);
+	border-right: 1px solid rgba(255, 255, 255, 0.16);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+	position: absolute;
+	pointer-events: none;
+	display: block;
+	width: 33px;
+	height: 38px;
+	background: url(../img/open.png) center no-repeat;
+	background-size: 80%;
+}
+.drop_sort_cont > select {
+	width: 100%;
+	background: rgb(255, 255, 255) !important;
+	border: 1px solid #C1C1C1 !important;
+	height: 38px;
+	padding-right: 40px;
+	padding-left: 10px;
+	float: left;
+	border-radius: 4px;
+	outline: none !important;
+	box-shadow: -10px 0 8px 10px white;
+	margin-bottom: 0;
+	cursor: pointer;
+	color: #6C6C6C;
+	font-size: 15px;
+}
+.filtri_cont {
+    float: left;
+    width: 100%;
+    padding: 15px 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+.lista_checkboxes {
+    float: left;
+    padding: 5px 0px 25px 0;
+}
+.checkItem {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+input[type=checkbox] {
+    visibility: hidden;
+    margin: 0 -8px;
+    position: absolute;
+}
+.checkItem label {
+	cursor: pointer;
+	line-height: 1.5em;
+	overflow: visible;
+	padding: 0px;
+	position: relative;
+	padding-left: 35px;
+	float: left;
+	font-size: 14px;
+	width: 100%;
+	color: #484848;
+	margin-right: 0 !important;
+}
+.checkItem label:before {
+	background: #fff;
+	border: 2px solid;
+	border-color: #777777;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 3px;
+}
+.checkItem label:after {
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	content: '';
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	background: url('../img/register.png') 1px 1px no-repeat #00A74D;
+	top: 0px;
+	left: 0px;
+	background-size: 13px;
+	border: 2px solid #00A74D;
+	border-radius: 3px;
+}
+input[type=checkbox]:checked + label:after {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.lista_checkboxes > .checkItem:last-child {
+	margin-bottom: 0;
+}
+.filtriraj_potvrdi {
+    position: relative;
+    float: left;
+    background: url(../img/check_dark.png) no-repeat 93% center #F6F6F6;
+    display: table;
+    width: 100%;
+    padding: 13px;
+    color: #808080;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    /* height: 38px; */
+    font-size: 14px;
+    border-radius: 6px;
+    outline: none !important;
+    margin-bottom: 0;
+    cursor: pointer;
+    background-size: 14px;
+    text-align: left;
+}
+.controls_paging_cont {
+    font-family: 'Skola Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    /* margin-top: 8px; */
+    width: 100%;
+    height: 70px;
+    border-top: 1px solid rgb(215, 215, 215);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3);
+    position: relative;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.03) 0%, rgba(255, 255, 255, 0) 35%); */
+}
+.controls_paging_cont table {
+    width: 100%;
+}
+.controls_paging_cont td > span {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    margin: 0 auto;
+    left: 9px;
+    right: 0;
+    display: table;
+    background: #D8232A;
+    width: 80px;
+    text-align: center;
+    bottom: -16px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.34) ,0px 1px 0px 0px rgba(0,0,0,0.44);
+}
+.pocetok_pg {
+    display: block;
+    width: 38px;
+    height: 38px;
+    background: url(../img/pocetok.png) center no-repeat #F6F6F6;
+    border-top-left-radius: 6px;
+    background-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    position: absolute;
+    left: 0;
+    bottom: 15px;
+    border-bottom-left-radius: 6px;
+}
+.prethodna_pg {
+    display: block;
+    width: 33px;
+    height: 38px;
+    background: url(../img/prethodna.png) center no-repeat #FFFFFF;
+    background-size: 20px;
+    border: 1px solid #C1C1C1 !important;
+    left: 37px;
+    bottom: 15px;
+    position: absolute;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+.cont_pagin {
+    display: table;
+    /* background: red; */
+    margin: 0 auto;
+    position: relative;
+    margin-top: 15px;
+}
+.kraj_pg {
+    display: block;
+    width: 38px;
+    height: 38px;
+    background: url(../img/kraj.png) center no-repeat #F6F6F6;
+    border-top-right-radius: 6px;
+    background-size: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    border-bottom-right-radius: 6px;
+}
+
+.naredna_pg {
+    display: block;
+    width: 33px;
+    height: 38px;
+    background: url(../img/pateka.png) center no-repeat #FFFFFF;
+    border: 1px solid #C1C1C1 !important;
+    right: 37px;
+    bottom: 15px;
+    position: absolute;
+    background-size: 20px;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.txt_pgna {
+    font-size: 13px;
+    display: table-cell;
+    padding: 0 12px;
+    color: #717171;
+}
+.cnt_inp_pag {/* background: red; */}
+.input_br_strana {
+    background: rgba(255, 255, 255, 0.56);
+    box-shadow: none !important;
+    border-radius: 6px;
+    height: 38px;
+    width: 90px;
+    color: #717171;
+    font-size: 13px;
+    padding: 0 14px;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    padding-right: 40px;
+    border: 1px solid #C1C1C1 !important;
+}
+.strana_odi {
+    display: block;
+    width: 32px;
+    height: 38px;
+    background: url(../img/pateka.png) center no-repeat #F6F6F6;
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-top-right-radius: 6px;
+    background-size: 20px;
+    margin-left: 58px;
+    margin-top: -38px;
+    position: relative;
+    color: transparent;
+    border-bottom-right-radius: 6px;
+    outline: none;
+}
+.naslov_produkt {
+    /* Dukat Трајно млеко 2: */
+    font-size: 35px;
+    color: #6C6C6C;
+    line-height: 50px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.brend_produkt {
+    /* Vindija d.d. Prehram: */
+    font-size: 17px;
+    color: #6C6C6C;
+    line-height: 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.container_proizvo {
+    margin-bottom: 35px;
+}
+.slika_proizvod_otvoren {
+    width: 100%;
+    border: 2px solid #DADADA;
+    display: block;
+    position: relative;
+}
+.slika_proizvod_otvoren img {
+    width: 100%;
+}
+.slika_proizvod_otvoren:before {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	background: url(../img/zoom.png) center no-repeat;
+	width: 30px;
+	height: 30px;
+	bottom: 10px;
+	right: 12px;
+	background-size: 100%;
+}
+.cena_akcija_proizvod {
+    float: left;
+    display: table;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    border-top: 1px solid #CCCCCC;
+}
+.nova_cena_proiz {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+    padding: 0 10px;
+}
+.cena_cont {
+    /* Rectangle 339: */
+    background-image: linear-gradient(-180deg, #F94931 0%, #F02316 100%);
+    border-radius: 100px;
+    /* 30мкд / 1L: */
+    font-size: 33.95px;
+    color: #FFFFFF;
+    line-height: 40px;
+    display: inline-block;
+    padding: 7px 25px;
+    margin-bottom: 5px;
+}
+.vazi_do_proiz {
+    /* Акција до 18.02.2016: */
+    font-size: 15px;
+    color: #F02316;
+    line-height: 17px;
+}
+.stara_cena_proiz {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+    text-align: center;
+    /* 70мкд / 1L: */
+    font-size: 29.95px;
+    color: #F02316;
+    line-height: 36px;
+    text-decoration: line-through;
+}
+.opis_title {
+    float: left;
+    /* background: red; */
+    width: 100%;
+    font-size: 20px;
+    color: #6C6C6C;
+    line-height: 18px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.opis_proizvod {
+    float: left;
+    font-size: 13px;
+    color: #6C6C6C;
+    line-height: 21px;
+    width: 100%;
+}
+.kolichina_buy {
+    float: left;
+    display: table;
+    width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    border-bottom: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    padding-right: 10px;
+}
+.kolichina_contt {
+    display: table-cell;
+    vertical-align: middle;
+    /* background: red; */
+    width: 25%;
+}
+.kol_desc {
+    display: table-cell;
+    vertical-align: middle;
+    /* background: #001AFF; */
+    /* Одберете количина (е: */
+    font-size: 12px;
+    color: #6C6C6C;
+    line-height: 18px;
+    padding: 5px 15px;
+}
+.kupi_kopce {
+    display: table-cell;
+    vertical-align: middle;
+}
+.kopce_add_cart {
+    /* background-image: linear-gradient(4deg, #DEDEDE 0%, #FFFFFF 98%); */
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 5px;
+    white-space: normal;
+    /* text-align: left; */
+    outline: none;
+    display: block;
+    padding: 13px 19px;
+    font-size: 14px;
+    color: #7D7D7D;
+    min-width: 150px;
+    padding-right: 75px;
+    width: 100%;
+    line-height: 19px;
+    background: url(../img/cart_proizvod.png) no-repeat 90% center #FFFFFF;
+    background-size: 42px;
+}
+.obicna_cena {
+    color: #6C6C6C;
+    background: white;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.31);
+    font-size: 30px;
+    line-height: normal;
+    display: table-cell;
+    vertical-align: middle;
+}
+.obicna_desc {
+    color: #6C6C6C;
+    padding-left: 25px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.obicna_c {
+    text-align: left;
+    display: table;
+}
+.kopce_add_cart:hover {background-color: #F6F6F6;}
+.vnatreshna_obicna {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.23), 0px 27px 31px 0px rgba(0,0,0,0.29);
+    border-radius: 7px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    max-width: 1100px;
+    color: #777777;
+    margin-top: 45px;
+    line-height: 23px;
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+.login_container {
+    max-width: 455px;
+    padding: 0;
+}
+.register_container {
+    max-width: 730px;
+    padding: 0;
+}
+.vnatreshni_bg {
+    background: url(https://e-tinex.mk/css/../img/bg_green.jpg) repeat-x center 125px;
+    background-size: auto 100%;
+}
+.vnatreshna_bg_nadWrapper {
+    
+}
+.naslov_tekstualna {
+    padding: 0 10px;
+    /* padding-top: 20px; */
+    padding-bottom: 19px;
+    /* margin-bottom: 20px; */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 44px;
+}
+.sodrzina_tekst {margin-top: 20px;padding-bottom: 10px;padding: 0 20px 25px;}
+.input_pole_cont {
+    /* background: rgba(243, 243, 243, 0.59); */
+    width: 100%;
+    padding: 20px;
+    display: table;
+    padding: 0 30px;
+    padding-top: 20px;
+    /* padding-bottom: 20px; */
+    /* border-bottom: 1px solid rgba(0, 0, 0, 0.16); */
+}
+.labela_za_input {
+    display: table-cell;
+    vertical-align: middle;
+    width: 30%;
+    padding-right: 20px;
+    font-size: 15px;
+    line-height: normal;
+    font-weight: 400;
+}
+.txt_input {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    padding: 10px;
+    /* Rectangle 26 Copy 4: */
+    background: #FFFFFF;
+    border: 1px solid #C1C1C1 !important;
+    border-radius: 3px;
+    color: #6C6C6C;
+    font-size: 15px;
+}
+.zaboravena_lozinka {
+    /* text-decoration: underline; */
+    background: white;
+    width: 100%;
+    display: block;
+    padding-bottom: 10px;
+    text-align: right;
+    color: #777777;
+    font-size: 13px;
+    padding-right: 30px;
+    margin-top: 10px;
+}
+.cont_procesiraj {
+    display: table;
+    padding: 20px 30px;
+    /* background: rgba(0, 0, 255, 0.18); */
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    border-top: 1px solid rgba(0, 0, 0, 0.16);
+}
+.err_lab_proces {
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 30px;
+    /* * Пополнете ги сите: */
+    font-size: 13px;
+    color: rgb(97, 97, 97);
+    line-height: 17px;
+    padding-left: 10px;
+}
+.kopce_procesiraj {
+    display: table-cell;
+    vertical-align: middle;
+    background: url(../img/register.png) no-repeat 93% center #F02316;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 7px;
+    width: 50%;
+    background-size: 18px;
+    min-width: 155px;
+    padding-right: 50px;
+    /* margin-left: 30px; */
+}
+.cards_support {
+    text-align: center;
+    padding: 0 20px;
+    /* float: left; */
+    margin-top: 20px;
+    /* border-top: 1px solid rgba(0, 0, 0, 0.16); */
+}
+.cards_support img {
+    max-width: 359px;
+    width: 100%;
+}
+.input_naslov {
+    border-bottom: 4px solid #F02316;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+}
+.img_log {
+    width: 27px;
+    margin-top: -5px;
+    margin-right: 15px;
+}
+.se_soglasuvam {
+    display: inline-block;
+    /* background: red; */
+    width: 100%;
+    padding: 30px 23px 0px;
+}
+.se_soglasuvam .checkItem {}
+.checkbox a {
+    text-decoration: underline;
+    color: #F02316;
+}
+.pola_pola {
+    width: 48%;
+    margin-right: 3.9%;
+}
+.ulica {
+    width: 68% !important;
+    margin-right: 4% !important;
+}
+.broj {
+    width: 28% !important;
+}
+.region {
+    position: relative;
+    display: table-cell;
+    width: 100%;
+    right: 0;
+    float: left;
+    vertical-align: middle;
+    top: 0;
+    margin-top: 20px;
+}
+.region > select {
+    box-shadow: none;
+}
+.dopolnitelen_adresa {
+    width: 100%;
+    float: left;
+    display: table-cell;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #C1C1C1 !important;
+    border-radius: 3px;
+    color: #6C6C6C;
+    font-size: 15px;
+    max-width: 469px;
+    resize: vertical;
+    min-height: 90px;
+}
+.zacuvaj_forma {
+    width: 30%;
+}
+.otkazi_forma {
+    width: 100%;
+    text-align: center;
+    padding-right: 15px;
+    padding: 13px 17px;
+    border-radius: 6px;
+    background: #F8F8F8;
+    min-width: auto;
+    display: inline-block;
+    color: #525252;
+    box-shadow: inset 0 0 0 1px #C1C1C1;
+}
+.shablon_cont {
+    display: table;
+    width: 100%;
+    height: 71px;
+    background: rgba(58, 58, 58, 0.94);
+}
+.cont_gore_kosh {display: table;padding: 14px 0;width: 100%;}
+.zacuvaj_shablon {
+    display: table-cell;
+    vertical-align: middle;
+    width: 34%;
+    padding-left: 2em;
+}
+.desc_zacuvaj {
+    display: table-cell;
+    vertical-align: middle;
+    /* Зачувај ја кошничкат: */
+    font-size: 12px;
+    color: #DADADA;
+    line-height: 15px;
+    padding: 5px 20px;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    padding-left: 2em;
+}
+.kopce_zac {
+    display: block;
+    border-radius: 5px;
+    outline: none;
+    padding: 12px 35px 12px 15px;
+    font-size: 13px;
+    color: #454545;
+    min-width: 80px;
+    width: 100%;
+    background: url(../img/save.png) 89% center no-repeat #F6F6F6;
+    background-size: auto 53%;
+    cursor: pointer;
+    font-weight: 500;
+}
+.imenuvaj_cont {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 170px;
+    background: white;
+    top: 0;
+    left: 0;
+    padding: 1em 2em;
+}
+.imenuvaj_open {
+	display: block;
+}
+.imenuvaj_input {}
+.labela_imen {
+    margin-bottom: 10px;
+    padding-right: 20px;
+    font-size: 13px;
+    line-height: normal;
+    font-weight: 400;
+    color: #6C6C6C;
+}
+.cont_kopcinja_imen {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    /* background: red; */
+}
+.zacuvaj_kopc_ime {
+    color: white;
+    padding: 13px 55px 13px 15px;
+    border-radius: 7px;
+    background: url(../img/register.png) 87% center no-repeat #F32925;
+    background-size: 18px;
+    width: 38%;
+    float: left;
+    cursor: pointer;
+}
+.otkazi_kopc_ime {
+    padding: 13px 17px;
+    border-radius: 6px;
+    background: #F8F8F8;
+    background-size: 18px;
+    float: left;
+    margin-left: 15px;
+    color: #525252;
+    box-shadow: inset 0 0 0 1px #C1C1C1;
+    cursor: pointer;
+}
+.istorija_koshnichki {color: #656565;     box-shadow: inset 0 0 0 1px #C1C1C1;background: url(../img/pateka.png) 98% center no-repeat #F8F8F8;background-size: 27px;font-weight: normal;padding: 20px;padding-right: 50px;}
+.edit_lin {}
+.otkazi_cont {
+    width: 20%;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 1em;
+}
+.history_kop_cont {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.istorija_koshnichki > img {
+    width: 25px;
+    margin-right: 10px;
+}
+.istorija_naslov > img {
+    width: 50px;
+    margin-top: -8px;
+}
+.istorija_naslov {}
+.koshnichki_lista {
+    display: table;
+    width: 100%;
+    margin: 0;
+    /* padding: 1em; */
+    padding-top: 0;
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+.koshnichki_lista li {
+    display: table-row;
+    background: url(../img/pateka.png) 98% center no-repeat #FFFFFF;
+    background-size: 27px;
+    /* padding-right: 50px; */
+}
+.koshnichki_lista li a {
+    display: inline-block;
+    float: left;
+    /* background: red; */
+    width: 100%;
+    color: #585858;
+    font-weight: 500;
+    padding: 15px 20px;
+    padding-right: 50px;
+    border-bottom: 1px solid #CECECE;
+}
+.koshnichki_lista li:nth-child(even) {
+    background-color: #F6F6F6;
+}
+.naslov_data_koshnichka {
+    float: left;
+    margin-right: 12px;
+    /* font-size: 26px; */
+    /* padding-top: 6px; */
+    font-weight: 400;
+    background: rgba(0, 0, 0, 0.07);
+    border-radius: 50px;
+    padding: 1px 9px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.cena_koshnichka {
+    /* float: left; */
+}
+.kolichina_proizvodi {
+    font-weight: 200;
+    float: left;
+    clear: left;
+    padding-top: 5px;
+}
+.koshnichki_lista li:last-child a {
+	border: none;
+}
+.add_shablon {
+    display: table-cell;
+    vertical-align: middle;
+    background: #ECECEC;
+    width: 50%;
+    padding: 18px 20px;
+    color: #585858;
+    text-align: center;
+    box-shadow: inset -1px -1px 0 0 rgba(0, 0, 0, 0.17);
+}
+.del_shablon {
+    display: table-cell;
+    vertical-align: middle;
+    width: 4%;
+    color: #F02316;
+    min-width: 160px;
+    padding: 18px 20px;
+    text-align: center;
+    box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.21);
+    background-size: 18px;
+}
+.kopcinja_otvoren_shablon {
+    display: table;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    font-weight: 500;
+}
+.ne_postoi {
+    width: 51%;
+    margin: auto;
+    display: block;
+    padding-right: 6%;
+    margin-bottom: 33px;
+}
+.info_ne_postoi {
+    text-align: center;
+    margin-bottom: 2em;
+    font-weight: 400;
+    border-top: 1px solid #CECECE;
+    padding-top: 10px;
+}
+.narachka_container {
+	max-width: 1400px;
+	padding: 0;
+	display: table;
+}
+.cont_narachka_polinja {padding: 0 2em 2em;margin-top: -10px;}
+.naslov_broj {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CECECE;
+    /* Одберете начин за ис: */
+    font-size: 18px;
+    color: #6C6C6C;
+    font-weight: normal;
+    float: left;
+    width: 100%;
+    margin-top: 15px;
+}
+.naslov_broj span {
+    background: #00A74D;
+    color: white;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+    border-radius: 100%;
+    margin-right: 10px;
+    text-align: center;
+    display: inline-block;
+}
+.nachin_plakjanje {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.prv_del_pl {
+    margin-right: 2.5%;
+    padding-right: 2.3%;
+    width: 50%;
+    border-right: 1px solid #E8E8E8;
+}
+.adresa_isporaka {
+    width: 100%;
+    float: left;
+    display: table-cell;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #C1C1C1 !important;
+    border-radius: 3px;
+    color: #6C6C6C;
+    font-size: 15px;
+    min-height: 165px;
+    resize: vertical;
+}
+.adresa2_isporaka {
+    min-height: 178px;
+}
+.nova_adresa {
+    padding: 0px 0px 10px;
+    margin-top: -5px;
+}
+.nova_adresa .checkItem {
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+.nova_adresa .checkbox {
+    padding-left: 30px;
+    font-size: 12px;
+    line-height: normal;
+    margin-left: 0;
+}
+.date_time {}
+.lbl_naplata {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    float: left;
+}
+.error_data_vreme {
+    color: #F02316;
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.isporaka_nachin {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.zabeleshka {
+    min-height: 210px;
+}
+.koshnichka_itms {
+    width: 100%;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+.koshnichka_itms th {
+    background: #00A74D;
+    border: 1px solid rgb(46, 142, 54);
+    font-weight: 600;
+    color: white;
+}
+.koshnichka_itms td {
+    border: 1px solid #CECECE;
+    text-align: center;
+    color: #616161;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: normal;
+}
+.desc_plakjanje {
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+}
+.koshnichka_itms tr > td:first-child {
+	text-align: left;
+}
+.koshnichka_itms tr:nth-child(odd) {background: #F9F9F9;}
+.cont_cena_dostava {
+    width: 100%;
+    /* background: red; */
+    display: table;
+    padding: 30px 0;
+    border-bottom: 1px solid #CECECE;
+    /* border-top: 1px solid #CECECE; */
+}
+.cena_vk {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding-right: 20px;
+}
+.cena_vk span {
+    font-size: 2.5em;
+    color: #F02316;
+    font-weight: 500;
+    line-height: normal;
+}
+.desc_c {
+    font-size: 12px;
+    font-weight: 500;
+}
+.plus_sign {
+    display: table-cell;
+    vertical-align: middle;
+    background: url(../img/plus.png) center no-repeat;
+    background-size: 30px;
+    width: 30px;
+    padding: 0 30px;
+}
+.dostava_cen {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    /* padding-left: 20px; */
+}
+.dostava_cen span {
+    font-size: 2em;
+    font-weight: 500;
+    line-height: normal;
+}
+.desc_d {
+    font-size: 12px;
+    font-weight: 500;
+}
+.naplata_vkupno {
+    width: 100%;
+    display: table;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #CECECE;
+    margin-bottom: 24px;
+}
+.naplata_final {
+}
+.cont_napl_kopce {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+.br_narachka span {
+    float: none;
+    width: auto;
+    border-radius: 90px;
+    padding: 0 8px;
+    background: #F02316;
+}
+.ochekuvajte {
+    display: table;
+    /* width: 100%; */
+    background: #EEEEEE;
+    border: 1px solid #A7A7A7;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.slika_kam {
+    display: inline-block;
+    width: 60px;
+}
+.koga_stiga {
+    display: table-cell;
+    vertical-align: middle;
+    width: 75%;
+    padding: 20px;
+}
+.desc_stiga {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+.data_vreme_stiga {
+    font-size: 23px;
+    font-weight: 500;
+}
+.slika_kam_cont {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 20px;
+    text-align: center;
+    min-width: 65px;
+}
+.otvori_podmeni_mobile {
+    width: 40px;
+    background: transparent !important;
+    position: absolute;
+    right: 0;
+    padding: 0 !important;
+    height: 40px;
+    z-index: 9;
+}
+.otvori_podmeni_mobile:before {
+	content: none !important;
+}
+.cosmo_btn {
+    width: 29%;
+    padding-left: 4% !important;
+    display: table-cell !important;
+    vertical-align: middle;
+    padding: 6px 0px;
+}
+.cosmo_btn img {
+    width: 100%;
+}
+.banr_pocetna {
+    margin-bottom: 4%;
+}
+.stickers_full_container {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    display: block;
+    top: 0;
+    margin-top: -5px;
+    margin-left: -5px;
+    /* background: rgba(255, 0, 0, 0.27); */
+}
+.stickr_ful {
+    max-width: 100% !important;
+    width: auto !important;
+    float: left;
+    max-height: 30px;
+    border-radius: 5px !important;
+    margin-bottom: 5px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.18);
+}
+.slika_proiz_stick {
+    position: relative;
+}
+.stickers_full_container a {
+	float: left;
+	width: 100%;
+}
+.block_6 .stickr_ful {
+    max-height: 23px;
+    margin-bottom: 3px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.64), 2px 2px 3px rgba(0, 0, 0, 0.18);
+}
+.social_networkss {
+    width: auto;
+    height: 33px;
+    /* background: blue; */
+    margin: auto;
+    display: table;
+    padding-top: 10px;
+}
+.social_networkss a {
+    width: 30px;
+    height: 30px;
+    display: block;
+    background: #777777;
+    float: left;
+    margin: 0 5px;
+    border-radius: 100%;
+}
+.banr_pocetna .grid_category1 {
+	padding: 0 !important;
+}
+.social_txt {
+    float: left;
+    height: 30px;
+    /* background: rgba(6, 6, 224, 0.11); */
+    color: #777777;
+    font-size: 11px;
+    width: 50%;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.fb_t {
+    background: url(../img/fb.png) no-repeat center #777777 !important;
+    background-size: 95% !important;
+}
+.yt_t {
+    background: url(../img/yt.png) no-repeat center #777777 !important;
+    background-size: 83% !important;
+}
+.in_t {
+    background: url(../img/in.png) no-repeat center #777777 !important;
+    background-size: 89% !important;
+}
